@@ -1,0 +1,201 @@
+{
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+      "^float-tabbar$": "@/components/float-tabbar/float-tabbar.vue"
+    }
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "首页",
+        "usingComponents": {
+          "float-tabbar": "/components/float-tabbar/float-tabbar"
+        }
+      }
+    },
+    {
+      "path": "pages/course/index",
+      "style": {
+        "navigationBarTitleText": "全部课程",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "usingComponents": {
+          "float-tabbar": "/components/float-tabbar/float-tabbar"
+        }
+      }
+    },
+    {
+      "path": "pages/course/detail",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "课程详情"
+      }
+    },
+    {
+      "path": "pages/booking/index",
+      "style": {
+        "navigationBarTitleText": "我的预约",
+        "navigationBarBackgroundColor": "#FFFFFF",
+        "usingComponents": {
+          "float-tabbar": "/components/float-tabbar/float-tabbar"
+        }
+      }
+    },
+    {
+      "path": "pages/booking/select",
+      "style": {
+        "navigationBarTitleText": "预约选择",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/booking/detail",
+      "style": {
+        "navigationBarTitleText": "预约详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": "我的",
+        "usingComponents": {
+          "float-tabbar": "/components/float-tabbar/float-tabbar"
+        }
+      }
+    },
+    {
+      "path": "pages/search/index",
+      "style": {
+        "navigationBarTitleText": "搜索",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/coach/index",
+      "style": {
+        "navigationBarTitleText": "私教预约",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/coach/detail",
+      "style": {
+        "navigationBarTitleText": "教练详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/gym/index",
+      "style": {
+        "navigationBarTitleText": "场馆预约",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/gym/detail",
+      "style": {
+        "navigationBarTitleText": "场馆详情",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/member/index",
+      "style": {
+        "navigationBarTitleText": "会员中心",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/coupon/index",
+      "style": {
+        "navigationBarTitleText": "优惠券",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/points/index",
+      "style": {
+        "navigationBarTitleText": "我的积分",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/favorites/index",
+      "style": {
+        "navigationBarTitleText": "收藏课程",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/orders/index",
+      "style": {
+        "navigationBarTitleText": "我的订单",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/settings/index",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/help/index",
+      "style": {
+        "navigationBarTitleText": "帮助与反馈",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    },
+    {
+      "path": "pages/privacy/index",
+      "style": {
+        "navigationBarTitleText": "隐私政策",
+        "navigationBarBackgroundColor": "#FFFFFF"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "健身房预约",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F6F8FB"
+  },
+  "tabBar": {
+    "color": "#8A94A6",
+    "selectedColor": "#2878FF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "首页",
+        "iconPath": "static/tab/home.png",
+        "selectedIconPath": "static/tab/home-active.png"
+      },
+      {
+        "pagePath": "pages/course/index",
+        "text": "课程",
+        "iconPath": "static/tab/course.png",
+        "selectedIconPath": "static/tab/course-active.png"
+      },
+      {
+        "pagePath": "pages/booking/index",
+        "text": "预约",
+        "iconPath": "static/tab/booking.png",
+        "selectedIconPath": "static/tab/booking-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/tab/profile.png",
+        "selectedIconPath": "static/tab/profile-active.png"
+      }
+    ]
+  }
+}

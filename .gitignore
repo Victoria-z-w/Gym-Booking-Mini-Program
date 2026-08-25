@@ -1,0 +1,18 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+.idea/
+.vscode/
+
+# 运行时数据
+server/src/data/db.json
+
+# 环境变量（勿提交密钥）
+server/.env
+miniapp/.env.development
+miniapp/.env.production
+
+# 微信开发者工具私有配置
+project.private.config.json
+miniapp/dist/

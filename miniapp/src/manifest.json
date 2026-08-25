@@ -1,0 +1,25 @@
+{
+  "name": "健身房预约",
+  "appid": "__UNI__GYMBOOKING",
+  "description": "健身房预约小程序",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "mp-weixin": {
+    "appid": "wx0000000000000000",
+    "setting": {
+      "urlCheck": true,
+      "es6": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "__usePrivacyCheck__": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "用于展示附近场馆距离"
+      }
+    },
+    "requiredPrivateInfos": []
+  },
+  "vueVersion": "3"
+}

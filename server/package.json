@@ -1,0 +1,16 @@
+{
+  "name": "gym-booking-server",
+  "version": "1.0.0",
+  "description": "健身房预约小程序 Express 后端",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "start:prod": "NODE_ENV=production node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "morgan": "^1.10.0"
+  }
+}
