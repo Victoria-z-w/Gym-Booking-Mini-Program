@@ -39,8 +39,6 @@ npm run dev:mp-weixin
 ├── server/          # Express 后端 API
 ├── miniapp/         # uni-app 微信小程序前端
 ├── DEPLOY.md        # 上线部署指南
-├── 功能提示词.md     # 功能需求文档
-└── 原型图.png        # UI 原型图
 ```
 
 ## 功能特性

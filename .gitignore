@@ -16,3 +16,7 @@ miniapp/.env.production
 # 微信开发者工具私有配置
 project.private.config.json
 miniapp/dist/
+
+# 内部文档（不上传公开仓库）
+功能提示词.md
+原型图.png
